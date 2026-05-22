@@ -1,0 +1,50 @@
+name: Sync Reviews From Blog
+
+# Runs every day at 05:00 UTC and on demand.
+# Crawls the WordPress sitemap of highticketdeals.com, finds new reviews and
+# comparison posts under /reviews/ and /compare/, and updates reviews.json.
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Run sync script
+        env:
+          BLOG_BASE_URL: "https://highticketdeals.com"
+          BLOG_SITEMAP_URLS: "https://highticketdeals.com/sitemap.xml,https://highticketdeals.com/sitemap_index.xml,https://highticketdeals.com/post-sitemap.xml"
+        run: python scripts/sync_reviews.py
+
+      - name: Create Pull Request if reviews.json changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: daily blog review sync"
+          title: "Daily blog review sync"
+          body: |
+            Automated daily sync of reviews from highticketdeals.com.
+
+            New posts under `/reviews/` and `/compare/` were detected on the blog
+            and added to `reviews.json`. Review the diff before merging — you
+            may want to add a `summary`, set the `alternative`, or assign the
+            correct tool `id` for new entries.
+          branch: chore/daily-review-sync
+          delete-branch: true

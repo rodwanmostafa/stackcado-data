@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0.0",
+  "last_generated": "2026-05-12",
+  "blog_base_url": "https://highticketdeals.com",
+  "tools": {
+    "hubspot": {
+      "name": "HubSpot",
+      "has_review": true,
+      "review_url": "https://highticketdeals.com/reviews/hubspot/",
+      "summary": "Powerful all-in-one CRM and marketing platform, but pricing scales sharply at the Pro/Enterprise level.",
+      "alternative": {
+        "id": "gohighlevel",
+        "name": "GoHighLevel",
+        "review_url": "https://highticketdeals.com/reviews/gohighlevel/",
+        "why": "Agency-friendly with white-labeling at a fraction of HubSpot's cost."
+      }
+    },
+    "gohighlevel": {
+      "name": "GoHighLevel",
+      "has_review": true,
+      "review_url": "https://highticketdeals.com/reviews/gohighlevel/",
+      "summary": "All-in-one agency CRM, funnels, email, SMS, and white-label SaaS. Excellent for agencies and freelancers.",
+      "alternative": null
+    },
+    "salesforce": {
+      "name": "Salesforce",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Enterprise-grade CRM with deep customization, but complex and expensive for SMBs.",
+      "alternative": {
+        "id": "gohighlevel",
+        "name": "GoHighLevel",
+        "review_url": "https://highticketdeals.com/reviews/gohighlevel/",
+        "why": "Far simpler setup at a small fraction of Salesforce's cost for SMBs."
+      }
+    },
+    "pipedrive": {
+      "name": "Pipedrive",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Sales-focused CRM with visual pipelines. A solid mid-market choice.",
+      "alternative": null
+    },
+    "mailchimp": {
+      "name": "Mailchimp",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Beginner-friendly email marketing platform; pricing escalates as your list grows.",
+      "alternative": {
+        "id": "convertkit",
+        "name": "Kit (ConvertKit)",
+        "review_url": "https://highticketdeals.com/reviews/convertkit/",
+        "why": "Better deliverability for creators, simpler automation, transparent pricing."
+      }
+    },
+    "convertkit": {
+      "name": "Kit (formerly ConvertKit)",
+      "has_review": true,
+      "review_url": "https://highticketdeals.com/reviews/convertkit/",
+      "summary": "Email marketing built for creators with excellent automation and tagging.",
+      "alternative": null
+    },
+    "activecampaign": {
+      "name": "ActiveCampaign",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Powerful marketing automation and CRM combo with a steeper learning curve.",
+      "alternative": {
+        "id": "brevo",
+        "name": "Brevo",
+        "review_url": "https://highticketdeals.com/reviews/brevo/",
+        "why": "Easier to use, more affordable, includes SMS and transactional email."
+      }
+    },
+    "brevo": {
+      "name": "Brevo",
+      "has_review": false,
+      "review_url": null,
+      "summary": "All-in-one email, SMS, and CRM platform with a generous free tier.",
+      "alternative": null
+    },
+    "klaviyo": {
+      "name": "Klaviyo",
+      "has_review": false,
+      "review_url": null,
+      "summary": "E-commerce focused email and SMS marketing, especially strong for Shopify stores.",
+      "alternative": null
+    },
+    "bluehost": {
+      "name": "Bluehost",
+      "has_review": true,
+      "review_url": "https://highticketdeals.com/reviews/bluehost/",
+      "summary": "Beginner-friendly shared WordPress hosting; modest performance and steep renewal pricing.",
+      "alternative": {
+        "id": "hostinger",
+        "name": "Hostinger",
+        "review_url": "https://highticketdeals.com/reviews/hostinger/",
+        "why": "Faster servers, lower long-term price, free SSL, and a much cleaner dashboard."
+      }
+    },
+    "hostinger": {
+      "name": "Hostinger",
+      "has_review": true,
+      "review_url": "https://highticketdeals.com/reviews/hostinger/",
+      "summary": "Fast and affordable hosting with a clean control panel; great value for small sites.",
+      "alternative": null
+    },
+    "wpengine": {
+      "name": "WP Engine",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Premium managed WordPress hosting with excellent performance, but pricey for small projects.",
+      "alternative": {
+        "id": "hostinger",
+        "name": "Hostinger Cloud",
+        "review_url": "https://highticketdeals.com/reviews/hostinger/",
+        "why": "Managed-style WordPress at a fraction of the price."
+      }
+    },
+    "kinsta": {
+      "name": "Kinsta",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Premium managed WordPress hosting on Google Cloud. Excellent performance, premium pricing.",
+      "alternative": null
+    },
+    "shopify": {
+      "name": "Shopify",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Leading hosted e-commerce platform; many apps but transaction fees apply.",
+      "alternative": null
+    },
+    "clickfunnels": {
+      "name": "ClickFunnels",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Sales funnel and landing page builder; strong for product launches but costly long-term.",
+      "alternative": {
+        "id": "gohighlevel",
+        "name": "GoHighLevel",
+        "review_url": "https://highticketdeals.com/reviews/gohighlevel/",
+        "why": "Funnels + CRM + email + automation in one tool, often cheaper."
+      }
+    },
+    "ahrefs": { "name": "Ahrefs", "has_review": false, "review_url": null, "summary": "Industry-leading SEO toolkit. Best-in-class backlink data; premium pricing.", "alternative": null },
+    "semrush": { "name": "Semrush", "has_review": false, "review_url": null, "summary": "All-in-one SEO and competitive intelligence platform with a wide feature set.", "alternative": null },
+    "google-workspace": { "name": "Google Workspace", "has_review": false, "review_url": null, "summary": "Cloud productivity suite (Gmail, Docs, Drive, Meet) for businesses.", "alternative": null },
+    "microsoft365": { "name": "Microsoft 365 Business", "has_review": false, "review_url": null, "summary": "Cloud productivity suite (Outlook, Word, Excel, Teams) for businesses.", "alternative": null },
+    "stripe": { "name": "Stripe", "has_review": false, "review_url": null, "summary": "Developer-friendly payments platform with strong APIs.", "alternative": null },
+    "paypal": { "name": "PayPal", "has_review": false, "review_url": null, "summary": "Widely-trusted online payments option for buyers and sellers.", "alternative": null },
+    "intercom": { "name": "Intercom", "has_review": false, "review_url": null, "summary": "Customer messaging and support platform; powerful but per-seat pricing adds up.", "alternative": null },
+    "zendesk": { "name": "Zendesk", "has_review": false, "review_url": null, "summary": "Customer support and ticketing platform used by mid-market and enterprise teams.", "alternative": null },
+    "calendly": { "name": "Calendly", "has_review": false, "review_url": null, "summary": "Popular meeting scheduling tool with a strong free tier.", "alternative": null },
+    "typeform": { "name": "Typeform", "has_review": false, "review_url": null, "summary": "Conversational forms and surveys with a polished UX; pricing scales by responses.", "alternative": null },
+    "cloudflare": { "name": "Cloudflare", "has_review": false, "review_url": null, "summary": "Global CDN, DNS, and security platform with a powerful free tier.", "alternative": null },
+    "vercel": { "name": "Vercel", "has_review": false, "review_url": null, "summary": "Frontend hosting and deployment platform, great for Next.js and modern web apps.", "alternative": null },
+    "netlify": { "name": "Netlify", "has_review": false, "review_url": null, "summary": "Frontend hosting and serverless functions with a generous free tier.", "alternative": null },
+    "wordpress-com": { "name": "WordPress.com", "has_review": false, "review_url": null, "summary": "Hosted WordPress for blogs and small business sites; less flexible than self-hosted.", "alternative": null },
+    "webflow": { "name": "Webflow", "has_review": false, "review_url": null, "summary": "Visual website builder with full design control and a built-in CMS.", "alternative": null },
+    "squarespace": { "name": "Squarespace", "has_review": false, "review_url": null, "summary": "Hosted website builder known for beautiful templates and an integrated commerce option.", "alternative": null },
+    "wix": { "name": "Wix", "has_review": false, "review_url": null, "summary": "Drag-and-drop website builder with broad template library and AI tools.", "alternative": null },
+    "google-analytics": { "name": "Google Analytics 4", "has_review": false, "review_url": null, "summary": "Free web and event analytics from Google, the most widely deployed analytics tool.", "alternative": null },
+    "hotjar": { "name": "Hotjar", "has_review": false, "review_url": null, "summary": "Heatmaps, recordings, and on-site surveys to understand user behavior.", "alternative": null }
+  }
+}

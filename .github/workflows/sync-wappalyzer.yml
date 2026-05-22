@@ -1,0 +1,46 @@
+name: Sync Wappalyzer Signatures
+
+# Runs every Monday at 06:00 UTC and on demand.
+# Pulls the open-source Wappalyzer technology fingerprints (MIT license)
+# and merges them into signatures.json without touching any custom edits.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run sync script
+        run: python scripts/sync_wappalyzer.py
+
+      - name: Create Pull Request if signatures changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: weekly Wappalyzer signature sync"
+          title: "Weekly Wappalyzer signature sync"
+          body: |
+            Automated weekly sync of detection signatures from the open-source
+            Wappalyzer database (MIT license).
+
+            Please review the diff before merging. Custom StackCado entries
+            (anything not present in Wappalyzer) are preserved automatically.
+          branch: chore/weekly-wappalyzer-sync
+          delete-branch: true

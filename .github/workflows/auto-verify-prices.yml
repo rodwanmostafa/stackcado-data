@@ -1,0 +1,58 @@
+name: Auto-Verify Prices
+
+# Runs every Monday at 07:00 UTC and on demand.
+# Uses Playwright to gently re-fetch each tool's official pricing page
+# (already public, already linked from pricing.json), extracts visible price
+# tokens, and proposes updates as a Pull Request for human review.
+#
+# Safety / ToS-friendly practices:
+#   - Respects robots.txt; skips disallowed URLs.
+#   - Identifies itself with a clear, contactable User-Agent.
+#   - Throttles to 1 request per 4 seconds (15 requests/minute).
+#   - Random jitter to avoid synthetic-looking patterns.
+#   - Never logs in, never bypasses paywalls, never scrapes private data.
+#   - Output is always a PR — a human reviews/approves every price change.
+
+on:
+  schedule:
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          pip install playwright requests
+          python -m playwright install --with-deps chromium
+
+      - name: Run auto-verify script
+        run: python scripts/auto_verify_prices.py
+
+      - name: Create Pull Request if pricing.json changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: weekly auto-verified price refresh"
+          title: "Weekly auto-verified price refresh"
+          body: |
+            Playwright-driven price re-check. Each suggested change is below
+            the proposed diff — please verify quickly against the linked
+            official pricing page before merging.
+
+            This PR is always opened for human review; no price ever changes
+            without your approval.
+          branch: chore/auto-verify-prices
+          delete-branch: true

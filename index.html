@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>StackCado Data</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #1a1a2e; line-height: 1.55; }
+    code { background: #eef2ff; padding: 1px 6px; border-radius: 4px; font-size: 13px; }
+    a { color: #4f46e5; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; background: #ecfdf5; color: #047857; font-size: 12px; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <h1>StackCado Data <span class="badge">public · MIT-licensed merge</span></h1>
+  <p>This repository hosts the public, version-controlled data files used by the
+    <a href="https://chromewebstore.google.com/category/extensions">StackCado</a>
+    Chrome extension, maintained by
+    <a href="https://highticketdeals.com/">HighTicketDeals.com</a>.</p>
+
+  <h2>Files</h2>
+  <ul>
+    <li><a href="signatures.json"><code>signatures.json</code></a> &mdash; Detection signatures (auto-merged weekly from Wappalyzer's open-source database, MIT licensed, plus custom StackCado entries).</li>
+    <li><a href="pricing.json"><code>pricing.json</code></a> &mdash; Verified pricing tiers per tool, with <code>last_verified</code> date and <code>source_url</code> so users can independently confirm.</li>
+    <li><a href="reviews.json"><code>reviews.json</code></a> &mdash; Mapping of detected tools to in-depth, human-written reviews on HighTicketDeals.com.</li>
+  </ul>
+
+  <h2>How updates work</h2>
+  <p><strong>Signatures</strong> are auto-synced every Monday by a GitHub Action.
+    <strong>Prices</strong> are verified manually (transparent commit history) and a weekly Issue lists any entry older than 30 days.</p>
+
+  <h2>License</h2>
+  <p>Data files are released under the MIT license. Wappalyzer signatures retain
+    their original MIT license from <a href="https://github.com/enthec/webappanalyzer">enthec/webappanalyzer</a>.</p>
+</body>
+</html>

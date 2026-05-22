@@ -1,0 +1,69 @@
+name: Verify Prices
+
+# Runs every Monday at 06:30 UTC and on demand.
+# Opens (or updates) a single GitHub Issue listing every tool whose
+# `last_verified` date is older than 30 days, with a direct link to the
+# official pricing page so you can re-verify in ~10 minutes per week.
+
+on:
+  schedule:
+    - cron: "30 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run stale-price check
+        id: stale
+        run: |
+          python scripts/check_stale_prices.py > stale_report.md
+          echo "report<<EOF" >> "$GITHUB_OUTPUT"
+          cat stale_report.md >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      - name: Upsert weekly verification issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const body = fs.readFileSync("stale_report.md", "utf8");
+            const title = "Weekly price verification — please update stale entries";
+
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              labels: "price-verification",
+              per_page: 50
+            });
+
+            const existing = issues.find(i => i.title === title);
+            if (existing) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ["price-verification"]
+              });
+            }
