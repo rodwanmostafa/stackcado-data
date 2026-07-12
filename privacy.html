@@ -22,43 +22,50 @@
     </style>
 </head>
 <body>
-    <h1>Privacy Policy for StackCado</h1>
-    <p class="last-updated">Last Updated: May 28, 2026</p>
+        <h1>Privacy Policy for StackCado</h1>
+    <p class="last-updated">Last Updated: July 12, 2026</p>
 
-    <p>StackCado ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use the StackCado Chrome extension (the "Extension").</p>
+    <p>StackCado ("we", "our", or "us") is a Chrome extension that shows you the technology stack of the website you are visiting. This policy describes exactly what data the extension handles. The short version: <strong>detection runs entirely in your browser, and we do not collect your browsing data — or any usage analytics — at all.</strong></p>
 
-    <h2>1. Information We Collect</h2>
-    <p>To provide its core functionality, StackCado may process the following types of information:</p>
+    <h2>1. What the Extension Processes Locally</h2>
     <ul>
-        <li><strong>Technical Information:</strong> When you visit a website, the Extension analyzes the site's technology stack (e.g., CMS, frameworks, analytics tools) locally in your browser.</li>
-        <li><strong>Usage Data:</strong> We may collect anonymous, aggregated data about how the Extension is used to improve our services. This does not include any personally identifiable information (PII).</li>
+        <li>On each page you visit, the extension reads the page's script URLs, cookie <em>names</em> (never values), and a small snippet of the page's HTML head, <strong>inside your browser only</strong>, to match them against a list of known technology signatures.</li>
+        <li>These results are kept in your browser's temporary extension storage and are discarded when the tab closes.</li>
+        <li>None of this information is transmitted to us or to anyone else.</li>
     </ul>
 
-    <h2>2. How We Use Your Information</h2>
-    <p>The information processed by StackCado is used solely for the following purposes:</p>
+    <h2>2. Network Requests the Extension Makes</h2>
+    <p>The extension makes only these requests, none of which include your browsing data:</p>
     <ul>
-        <li>To identify and display the technology stack of the websites you visit.</li>
-        <li>To provide cost-saving suggestions based on the detected technologies.</li>
-        <li>To improve the accuracy of our detection signatures.</li>
+        <li><strong>Data files (about once per day):</strong> it downloads public detection signatures, pricing data, and configuration from our public GitHub repository (<a href="https://github.com/rodwanmostafa/stackcado-data">stackcado-data</a>, served via GitHub Pages).</li>
+        <li><strong>Licence verification (Pro only):</strong> if you buy StackCado Pro and enter a licence key, the extension sends <em>only that key</em> to our licence server to confirm it is valid — when you activate, and roughly once a week afterwards. No URLs, page content, or personal details are included.</li>
     </ul>
 
-    <h2>3. Data Storage and Security</h2>
-    <p>StackCado is designed with privacy in mind:</p>
+    <h2>3. StackCado Pro Purchases</h2>
     <ul>
-        <li><strong>Local Processing:</strong> Most analysis happens locally on your device. We do not track your browsing history or store the URLs you visit on our servers.</li>
-        <li><strong>No Personal Data Sale:</strong> We do not sell, trade, or otherwise transfer your personally identifiable information to outside parties.</li>
+        <li>Payments are processed by <a href="https://stripe.com/privacy">Stripe</a>; we never see or store your card details.</li>
+        <li>To let you recover a lost licence key, our licence server stores the email address you used at checkout together with your licence key. That is the only personal data we store, and it is used only to deliver and recover your key (recovery emails are sent via <a href="https://resend.com/legal/privacy-policy">Resend</a>).</li>
+        <li>To have this record deleted, email us and we will remove it (your licence stops working once deleted).</li>
     </ul>
 
-    <h2>4. Third-Party Services</h2>
-    <p>The Extension may fetch updated detection signatures and pricing data from our public GitHub repository (stackcado-data). This process does not involve sending any of your personal data to GitHub.</p>
+    <h2>4. Scan History and Exports (Pro)</h2>
+    <p>If you use "Save scan", the scan (site hostname and detected tools) is stored <strong>locally in your browser's extension storage</strong> so you can compare sites later. You can clear it at any time from the popup. Exports (CSV, JSON, report) are generated locally and saved only to your device. Your licence status syncs across your own browsers via your Chrome profile's extension sync storage.</p>
 
-    <h2>5. Compliance with Laws</h2>
-    <p>We will disclose your information where required to do so by law or subpoena or if we believe that such action is necessary to comply with the law and the reasonable requests of law enforcement.</p>
+    <h2>5. What We Do NOT Do</h2>
+    <ul>
+        <li>No usage analytics or telemetry of any kind.</li>
+        <li>No collection of browsing history, URLs, cookies, or page content.</li>
+        <li>No selling, trading, or sharing of personal information.</li>
+        <li>No account or sign-up is required for any feature; Pro needs only a licence key.</li>
+    </ul>
 
-    <h2>6. Changes to This Privacy Policy</h2>
-    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.</p>
+    <h2>6. Affiliate Disclosure</h2>
+    <p>StackCado links to reviews on HighTicketDeals.com. Some of those reviews contain affiliate links, which is disclosed in the extension and on the store listing. Links open only when you click them — the extension never redirects you or modifies the pages you visit.</p>
 
-    <h2>7. Contact Us</h2>
+    <h2>7. Changes to This Privacy Policy</h2>
+    <p>We will post any changes on this page and update the date above. If our data handling ever changes materially, we will disclose it prominently in the extension before the change takes effect.</p>
+
+    <h2>8. Contact Us</h2>
     <p>If you have any questions about this Privacy Policy, please contact us at:</p>
     <p>Email: <a href="mailto:support@highticketdeals.com">support@highticketdeals.com</a><br>
     Website: <a href="https://highticketdeals.com/">highticketdeals.com</a></p>
