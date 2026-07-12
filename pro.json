@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "_doc": "Remote config for StackCado Pro. The extension fetches this daily with the other data files. Pricing and purchase URLs live HERE so they can change without an extension release. Set pro.enabled to true only after the licence worker is deployed and the Stripe payment link is live (see the extension repo's docs/DEPLOYMENT.md).",
+  "pro": {
+    "enabled": false,
+    "price_display": "€19",
+    "checkout_url": "",
+    "license_api": ""
+  },
+  "recommendations": {
+    "_doc": "Gap-based suggestions shown when a category is missing from a detected stack. Keep disabled until items point at real reviews. Item shape: { when_missing: <category>, name, why, url }.",
+    "enabled": false,
+    "items": []
+  }
+}
