@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "last_generated": "2026-05-12",
+  "last_generated": "2026-10-26",
   "currency_default": "USD",
   "tools": {
     "hubspot": {
@@ -8,9 +8,27 @@
       "category": "CRM",
       "pricing_url": "https://www.hubspot.com/pricing/marketing",
       "tiers": [
-        { "name": "Starter", "price": 20, "period": "month", "currency": "USD", "notes": "Marketing Hub Starter, billed monthly" },
-        { "name": "Professional", "price": 890, "period": "month", "currency": "USD", "notes": "Marketing Hub Professional" },
-        { "name": "Enterprise", "price": 3600, "period": "month", "currency": "USD", "notes": "Marketing Hub Enterprise" }
+        {
+          "name": "Starter",
+          "price": 20,
+          "period": "month",
+          "currency": "USD",
+          "notes": "Marketing Hub Starter, billed monthly"
+        },
+        {
+          "name": "Professional",
+          "price": 890,
+          "period": "month",
+          "currency": "USD",
+          "notes": "Marketing Hub Professional"
+        },
+        {
+          "name": "Enterprise",
+          "price": 3600,
+          "period": "month",
+          "currency": "USD",
+          "notes": "Marketing Hub Enterprise"
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -20,9 +38,27 @@
       "category": "CRM",
       "pricing_url": "https://www.gohighlevel.com/pricing",
       "tiers": [
-        { "name": "Starter", "price": 97, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Unlimited", "price": 297, "period": "month", "currency": "USD", "notes": "Most popular for agencies" },
-        { "name": "Pro / SaaS", "price": 497, "period": "month", "currency": "USD", "notes": "White-label SaaS" }
+        {
+          "name": "Starter",
+          "price": 97,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Unlimited",
+          "price": 297,
+          "period": "month",
+          "currency": "USD",
+          "notes": "Most popular for agencies"
+        },
+        {
+          "name": "Pro / SaaS",
+          "price": 497,
+          "period": "month",
+          "currency": "USD",
+          "notes": "White-label SaaS"
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -32,9 +68,27 @@
       "category": "CRM",
       "pricing_url": "https://www.salesforce.com/sales/pricing/",
       "tiers": [
-        { "name": "Starter Suite", "price": 25, "period": "user/month", "currency": "USD", "notes": "" },
-        { "name": "Pro Suite", "price": 100, "period": "user/month", "currency": "USD", "notes": "" },
-        { "name": "Enterprise", "price": 165, "period": "user/month", "currency": "USD", "notes": "" }
+        {
+          "name": "Starter Suite",
+          "price": 25,
+          "period": "user/month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Pro Suite",
+          "price": 100,
+          "period": "user/month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Enterprise",
+          "price": 165,
+          "period": "user/month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -44,9 +98,27 @@
       "category": "CRM",
       "pricing_url": "https://www.pipedrive.com/en/pricing",
       "tiers": [
-        { "name": "Essential", "price": 14, "period": "user/month", "currency": "USD", "notes": "Billed annually" },
-        { "name": "Advanced", "price": 34, "period": "user/month", "currency": "USD", "notes": "" },
-        { "name": "Professional", "price": 49, "period": "user/month", "currency": "USD", "notes": "" }
+        {
+          "name": "Essential",
+          "price": 14,
+          "period": "user/month",
+          "currency": "USD",
+          "notes": "Billed annually"
+        },
+        {
+          "name": "Advanced",
+          "price": 34,
+          "period": "user/month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Professional",
+          "price": 49,
+          "period": "user/month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -56,10 +128,34 @@
       "category": "Email Marketing",
       "pricing_url": "https://mailchimp.com/pricing/marketing/",
       "tiers": [
-        { "name": "Free", "price": 0, "period": "month", "currency": "USD", "notes": "Up to 500 contacts" },
-        { "name": "Essentials", "price": 13, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Standard", "price": 20, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Premium", "price": 350, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Free",
+          "price": 0,
+          "period": "month",
+          "currency": "USD",
+          "notes": "Up to 500 contacts"
+        },
+        {
+          "name": "Essentials",
+          "price": 13,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Standard",
+          "price": 20,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Premium",
+          "price": 350,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -69,9 +165,27 @@
       "category": "Email Marketing",
       "pricing_url": "https://kit.com/pricing",
       "tiers": [
-        { "name": "Free", "price": 0, "period": "month", "currency": "USD", "notes": "Up to 10,000 subscribers, no automation" },
-        { "name": "Creator", "price": 15, "period": "month", "currency": "USD", "notes": "Up to 300 subscribers, billed annually" },
-        { "name": "Creator Pro", "price": 29, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Free",
+          "price": 0,
+          "period": "month",
+          "currency": "USD",
+          "notes": "Up to 10,000 subscribers, no automation"
+        },
+        {
+          "name": "Creator",
+          "price": 15,
+          "period": "month",
+          "currency": "USD",
+          "notes": "Up to 300 subscribers, billed annually"
+        },
+        {
+          "name": "Creator Pro",
+          "price": 29,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -81,10 +195,34 @@
       "category": "Email Marketing",
       "pricing_url": "https://www.activecampaign.com/pricing",
       "tiers": [
-        { "name": "Starter", "price": 15, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Plus", "price": 49, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Pro", "price": 79, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Enterprise", "price": 145, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Starter",
+          "price": 15,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Plus",
+          "price": 49,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Pro",
+          "price": 79,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Enterprise",
+          "price": 145,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -94,9 +232,27 @@
       "category": "Email Marketing",
       "pricing_url": "https://www.brevo.com/pricing/",
       "tiers": [
-        { "name": "Free", "price": 0, "period": "month", "currency": "USD", "notes": "300 emails/day" },
-        { "name": "Starter", "price": 9, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Business", "price": 18, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Free",
+          "price": 0,
+          "period": "month",
+          "currency": "USD",
+          "notes": "300 emails/day"
+        },
+        {
+          "name": "Starter",
+          "price": 9,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Business",
+          "price": 18,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -106,11 +262,29 @@
       "category": "Email Marketing",
       "pricing_url": "https://www.klaviyo.com/pricing",
       "tiers": [
-        { "name": "Free", "price": 0, "period": "month", "currency": "USD", "notes": "Up to 250 contacts" },
-        { "name": "Email 1k", "price": 30, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Email + SMS 1k", "price": 45, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Free",
+          "price": 0,
+          "period": "month",
+          "currency": "USD",
+          "notes": "Up to 250 contacts"
+        },
+        {
+          "name": "Email 1k",
+          "price": 30,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Email + SMS 1k",
+          "price": 45,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-10-26",
       "verified_by": "rodwanmostafa"
     },
     "bluehost": {
@@ -118,9 +292,27 @@
       "category": "Web Hosting",
       "pricing_url": "https://www.bluehost.com/hosting/shared",
       "tiers": [
-        { "name": "Basic", "price": 2.95, "period": "month", "currency": "USD", "notes": "Intro 36-month price; renews higher" },
-        { "name": "Choice Plus", "price": 5.45, "period": "month", "currency": "USD", "notes": "Intro price" },
-        { "name": "Online Store", "price": 9.95, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Basic",
+          "price": 2.95,
+          "period": "month",
+          "currency": "USD",
+          "notes": "Intro 36-month price; renews higher"
+        },
+        {
+          "name": "Choice Plus",
+          "price": 5.45,
+          "period": "month",
+          "currency": "USD",
+          "notes": "Intro price"
+        },
+        {
+          "name": "Online Store",
+          "price": 9.95,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -130,9 +322,27 @@
       "category": "Web Hosting",
       "pricing_url": "https://www.hostinger.com/web-hosting",
       "tiers": [
-        { "name": "Premium", "price": 2.99, "period": "month", "currency": "USD", "notes": "48-month intro price" },
-        { "name": "Business", "price": 3.99, "period": "month", "currency": "USD", "notes": "48-month intro price" },
-        { "name": "Cloud Startup", "price": 7.99, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Premium",
+          "price": 2.99,
+          "period": "month",
+          "currency": "USD",
+          "notes": "48-month intro price"
+        },
+        {
+          "name": "Business",
+          "price": 3.99,
+          "period": "month",
+          "currency": "USD",
+          "notes": "48-month intro price"
+        },
+        {
+          "name": "Cloud Startup",
+          "price": 7.99,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -142,9 +352,27 @@
       "category": "Web Hosting",
       "pricing_url": "https://wpengine.com/plans/",
       "tiers": [
-        { "name": "Startup", "price": 25, "period": "month", "currency": "USD", "notes": "Annual billing" },
-        { "name": "Professional", "price": 49, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Growth", "price": 95, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Startup",
+          "price": 25,
+          "period": "month",
+          "currency": "USD",
+          "notes": "Annual billing"
+        },
+        {
+          "name": "Professional",
+          "price": 49,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Growth",
+          "price": 95,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -154,9 +382,27 @@
       "category": "Web Hosting",
       "pricing_url": "https://kinsta.com/plans/",
       "tiers": [
-        { "name": "Starter", "price": 35, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Pro", "price": 70, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Business 1", "price": 115, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Starter",
+          "price": 35,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Pro",
+          "price": 70,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Business 1",
+          "price": 115,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -166,9 +412,27 @@
       "category": "E-commerce",
       "pricing_url": "https://www.shopify.com/pricing",
       "tiers": [
-        { "name": "Basic", "price": 29, "period": "month", "currency": "USD", "notes": "Annual billing" },
-        { "name": "Shopify", "price": 79, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Advanced", "price": 299, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Basic",
+          "price": 29,
+          "period": "month",
+          "currency": "USD",
+          "notes": "Annual billing"
+        },
+        {
+          "name": "Shopify",
+          "price": 79,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Advanced",
+          "price": 299,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -178,9 +442,27 @@
       "category": "Page Builder",
       "pricing_url": "https://www.clickfunnels.com/pricing",
       "tiers": [
-        { "name": "Startup", "price": 97, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Pro", "price": 297, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Funnel Hacker", "price": 497, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Startup",
+          "price": 97,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Pro",
+          "price": 297,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Funnel Hacker",
+          "price": 497,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -190,9 +472,27 @@
       "category": "SEO",
       "pricing_url": "https://ahrefs.com/pricing",
       "tiers": [
-        { "name": "Lite", "price": 129, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Standard", "price": 249, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Advanced", "price": 449, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Lite",
+          "price": 129,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Standard",
+          "price": 249,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Advanced",
+          "price": 449,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -202,11 +502,29 @@
       "category": "SEO",
       "pricing_url": "https://www.semrush.com/pricing/",
       "tiers": [
-        { "name": "Pro", "price": 139.95, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Guru", "price": 249.95, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Business", "price": 499.95, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Pro",
+          "price": 139.0,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Guru",
+          "price": 248.17,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Business",
+          "price": 299.0,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-10-26",
       "verified_by": "rodwanmostafa"
     },
     "google-workspace": {
@@ -214,11 +532,29 @@
       "category": "Productivity",
       "pricing_url": "https://workspace.google.com/pricing.html",
       "tiers": [
-        { "name": "Business Starter", "price": 7.20, "period": "user/month", "currency": "USD", "notes": "" },
-        { "name": "Business Standard", "price": 14.40, "period": "user/month", "currency": "USD", "notes": "" },
-        { "name": "Business Plus", "price": 21.60, "period": "user/month", "currency": "USD", "notes": "" }
+        {
+          "name": "Business Starter",
+          "price": 7.2,
+          "period": "user/month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Business Standard",
+          "price": 14.4,
+          "period": "user/month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Business Plus",
+          "price": 21.6,
+          "period": "user/month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-10-26",
       "verified_by": "rodwanmostafa"
     },
     "microsoft365": {
@@ -226,9 +562,27 @@
       "category": "Productivity",
       "pricing_url": "https://www.microsoft.com/en-us/microsoft-365/business/compare-all-plans",
       "tiers": [
-        { "name": "Business Basic", "price": 6.00, "period": "user/month", "currency": "USD", "notes": "" },
-        { "name": "Business Standard", "price": 12.50, "period": "user/month", "currency": "USD", "notes": "" },
-        { "name": "Business Premium", "price": 22.00, "period": "user/month", "currency": "USD", "notes": "" }
+        {
+          "name": "Business Basic",
+          "price": 6.0,
+          "period": "user/month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Business Standard",
+          "price": 12.5,
+          "period": "user/month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Business Premium",
+          "price": 22.0,
+          "period": "user/month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -238,9 +592,15 @@
       "category": "Payments",
       "pricing_url": "https://stripe.com/pricing",
       "tiers": [
-        { "name": "Standard", "price": 0, "period": "month", "currency": "USD", "notes": "2.9% + $0.30 per successful card charge (US)" }
+        {
+          "name": "Standard",
+          "price": 0,
+          "period": "month",
+          "currency": "USD",
+          "notes": "2.9% + $0.30 per successful card charge (US)"
+        }
       ],
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-10-26",
       "verified_by": "rodwanmostafa"
     },
     "paypal": {
@@ -248,9 +608,15 @@
       "category": "Payments",
       "pricing_url": "https://www.paypal.com/us/business/paypal-business-fees",
       "tiers": [
-        { "name": "Standard", "price": 0, "period": "month", "currency": "USD", "notes": "3.49% + $0.49 standard rate (US)" }
+        {
+          "name": "Standard",
+          "price": 0,
+          "period": "month",
+          "currency": "USD",
+          "notes": "3.49% + $0.49 standard rate (US)"
+        }
       ],
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-10-26",
       "verified_by": "rodwanmostafa"
     },
     "intercom": {
@@ -258,11 +624,29 @@
       "category": "Live Chat",
       "pricing_url": "https://www.intercom.com/pricing",
       "tiers": [
-        { "name": "Essential", "price": 39, "period": "seat/month", "currency": "USD", "notes": "" },
-        { "name": "Advanced", "price": 99, "period": "seat/month", "currency": "USD", "notes": "" },
-        { "name": "Expert", "price": 139, "period": "seat/month", "currency": "USD", "notes": "" }
+        {
+          "name": "Essential",
+          "price": 39,
+          "period": "seat/month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Advanced",
+          "price": 99,
+          "period": "seat/month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Expert",
+          "price": 100.0,
+          "period": "seat/month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-10-26",
       "verified_by": "rodwanmostafa"
     },
     "zendesk": {
@@ -270,9 +654,27 @@
       "category": "Customer Support",
       "pricing_url": "https://www.zendesk.com/service/pricing/",
       "tiers": [
-        { "name": "Suite Team", "price": 55, "period": "agent/month", "currency": "USD", "notes": "Annual billing" },
-        { "name": "Suite Growth", "price": 89, "period": "agent/month", "currency": "USD", "notes": "" },
-        { "name": "Suite Professional", "price": 115, "period": "agent/month", "currency": "USD", "notes": "" }
+        {
+          "name": "Suite Team",
+          "price": 55,
+          "period": "agent/month",
+          "currency": "USD",
+          "notes": "Annual billing"
+        },
+        {
+          "name": "Suite Growth",
+          "price": 89,
+          "period": "agent/month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Suite Professional",
+          "price": 115,
+          "period": "agent/month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -282,9 +684,27 @@
       "category": "Scheduling",
       "pricing_url": "https://calendly.com/pricing",
       "tiers": [
-        { "name": "Free", "price": 0, "period": "user/month", "currency": "USD", "notes": "" },
-        { "name": "Standard", "price": 12, "period": "seat/month", "currency": "USD", "notes": "" },
-        { "name": "Teams", "price": 20, "period": "seat/month", "currency": "USD", "notes": "" }
+        {
+          "name": "Free",
+          "price": 0,
+          "period": "user/month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Standard",
+          "price": 12,
+          "period": "seat/month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Teams",
+          "price": 20,
+          "period": "seat/month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -294,9 +714,27 @@
       "category": "Forms",
       "pricing_url": "https://www.typeform.com/pricing/",
       "tiers": [
-        { "name": "Basic", "price": 25, "period": "month", "currency": "USD", "notes": "Annual billing" },
-        { "name": "Plus", "price": 50, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Business", "price": 83, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Basic",
+          "price": 25,
+          "period": "month",
+          "currency": "USD",
+          "notes": "Annual billing"
+        },
+        {
+          "name": "Plus",
+          "price": 50,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Business",
+          "price": 83,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -306,9 +744,27 @@
       "category": "CDN / Security",
       "pricing_url": "https://www.cloudflare.com/plans/",
       "tiers": [
-        { "name": "Free", "price": 0, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Pro", "price": 25, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Business", "price": 250, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Free",
+          "price": 0,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Pro",
+          "price": 25,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Business",
+          "price": 250,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -318,10 +774,22 @@
       "category": "Hosting / PaaS",
       "pricing_url": "https://vercel.com/pricing",
       "tiers": [
-        { "name": "Hobby", "price": 0, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Pro", "price": 20, "period": "user/month", "currency": "USD", "notes": "" }
+        {
+          "name": "Hobby",
+          "price": 0,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Pro",
+          "price": 20,
+          "period": "user/month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-10-26",
       "verified_by": "rodwanmostafa"
     },
     "netlify": {
@@ -329,10 +797,22 @@
       "category": "Hosting / PaaS",
       "pricing_url": "https://www.netlify.com/pricing/",
       "tiers": [
-        { "name": "Free", "price": 0, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Pro", "price": 19, "period": "user/month", "currency": "USD", "notes": "" }
+        {
+          "name": "Free",
+          "price": 0,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Pro",
+          "price": 20.0,
+          "period": "user/month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-10-26",
       "verified_by": "rodwanmostafa"
     },
     "wordpress-com": {
@@ -340,11 +820,29 @@
       "category": "CMS",
       "pricing_url": "https://wordpress.com/pricing/",
       "tiers": [
-        { "name": "Personal", "price": 4, "period": "month", "currency": "USD", "notes": "Annual billing" },
-        { "name": "Premium", "price": 8, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Business", "price": 25, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Personal",
+          "price": 4,
+          "period": "month",
+          "currency": "USD",
+          "notes": "Annual billing"
+        },
+        {
+          "name": "Premium",
+          "price": 8,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Business",
+          "price": 25,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-10-26",
       "verified_by": "rodwanmostafa"
     },
     "webflow": {
@@ -352,9 +850,27 @@
       "category": "CMS / Site Builder",
       "pricing_url": "https://webflow.com/pricing",
       "tiers": [
-        { "name": "Basic", "price": 14, "period": "month", "currency": "USD", "notes": "Annual billing" },
-        { "name": "CMS", "price": 23, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Business", "price": 39, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Basic",
+          "price": 14,
+          "period": "month",
+          "currency": "USD",
+          "notes": "Annual billing"
+        },
+        {
+          "name": "CMS",
+          "price": 23,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Business",
+          "price": 39,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -364,9 +880,27 @@
       "category": "CMS / Site Builder",
       "pricing_url": "https://www.squarespace.com/pricing",
       "tiers": [
-        { "name": "Personal", "price": 16, "period": "month", "currency": "USD", "notes": "Annual billing" },
-        { "name": "Business", "price": 23, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Commerce Basic", "price": 28, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Personal",
+          "price": 16,
+          "period": "month",
+          "currency": "USD",
+          "notes": "Annual billing"
+        },
+        {
+          "name": "Business",
+          "price": 23,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Commerce Basic",
+          "price": 28,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -376,9 +910,27 @@
       "category": "CMS / Site Builder",
       "pricing_url": "https://www.wix.com/upgrade/website",
       "tiers": [
-        { "name": "Light", "price": 17, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Core", "price": 29, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Business", "price": 36, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Light",
+          "price": 17,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Core",
+          "price": 29,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Business",
+          "price": 36,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -388,7 +940,13 @@
       "category": "Analytics",
       "pricing_url": "https://marketingplatform.google.com/about/analytics/",
       "tiers": [
-        { "name": "Free", "price": 0, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Free",
+          "price": 0,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
       "last_verified": "2026-05-12",
       "verified_by": "rodwanmostafa"
@@ -398,11 +956,29 @@
       "category": "Analytics",
       "pricing_url": "https://www.hotjar.com/pricing/",
       "tiers": [
-        { "name": "Basic", "price": 0, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Plus", "price": 32, "period": "month", "currency": "USD", "notes": "" },
-        { "name": "Business", "price": 80, "period": "month", "currency": "USD", "notes": "" }
+        {
+          "name": "Basic",
+          "price": 0,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Plus",
+          "price": 39.0,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        },
+        {
+          "name": "Business",
+          "price": 79.0,
+          "period": "month",
+          "currency": "USD",
+          "notes": ""
+        }
       ],
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-10-26",
       "verified_by": "rodwanmostafa"
     }
   }
