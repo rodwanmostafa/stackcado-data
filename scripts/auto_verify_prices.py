@@ -161,7 +161,8 @@ def main() -> int:
                 if match is None:
                     continue
                 if abs(match - cur) >= 0.5:
-                    print(f"  {tier_id := tier.get('name', 'tier')}: ${cur} -> ${match}", flush=True)
+                    tier_name = tier.get('name', 'tier')
+                    print(f"  {tier_name}: ${cur} -> ${match}", flush=True)
                     tier["price"] = round(match, 2)
                     tier_changed = True
 
