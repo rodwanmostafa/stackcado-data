@@ -68,7 +68,7 @@
       "alternative": {
         "id": "brevo",
         "name": "Brevo",
-        "review_url": "https://highticketdeals.com/reviews/brevo/",
+        "review_url": "https://highticketdeals.com/email-automation-tools-small-business/",
         "why": "Easier to use, more affordable, includes SMS and transactional email."
       }
     },
@@ -143,24 +143,138 @@
         "why": "Funnels + CRM + email + automation in one tool, often cheaper."
       }
     },
-    "ahrefs": { "name": "Ahrefs", "has_review": false, "review_url": null, "summary": "Industry-leading SEO toolkit. Best-in-class backlink data; premium pricing.", "alternative": null },
-    "semrush": { "name": "Semrush", "has_review": false, "review_url": null, "summary": "All-in-one SEO and competitive intelligence platform with a wide feature set.", "alternative": null },
-    "google-workspace": { "name": "Google Workspace", "has_review": false, "review_url": null, "summary": "Cloud productivity suite (Gmail, Docs, Drive, Meet) for businesses.", "alternative": null },
-    "microsoft365": { "name": "Microsoft 365 Business", "has_review": false, "review_url": null, "summary": "Cloud productivity suite (Outlook, Word, Excel, Teams) for businesses.", "alternative": null },
-    "stripe": { "name": "Stripe", "has_review": false, "review_url": null, "summary": "Developer-friendly payments platform with strong APIs.", "alternative": null },
-    "paypal": { "name": "PayPal", "has_review": false, "review_url": null, "summary": "Widely-trusted online payments option for buyers and sellers.", "alternative": null },
-    "intercom": { "name": "Intercom", "has_review": false, "review_url": null, "summary": "Customer messaging and support platform; powerful but per-seat pricing adds up.", "alternative": null },
-    "zendesk": { "name": "Zendesk", "has_review": false, "review_url": null, "summary": "Customer support and ticketing platform used by mid-market and enterprise teams.", "alternative": null },
-    "calendly": { "name": "Calendly", "has_review": false, "review_url": null, "summary": "Popular meeting scheduling tool with a strong free tier.", "alternative": null },
-    "typeform": { "name": "Typeform", "has_review": false, "review_url": null, "summary": "Conversational forms and surveys with a polished UX; pricing scales by responses.", "alternative": null },
-    "cloudflare": { "name": "Cloudflare", "has_review": false, "review_url": null, "summary": "Global CDN, DNS, and security platform with a powerful free tier.", "alternative": null },
-    "vercel": { "name": "Vercel", "has_review": false, "review_url": null, "summary": "Frontend hosting and deployment platform, great for Next.js and modern web apps.", "alternative": null },
-    "netlify": { "name": "Netlify", "has_review": false, "review_url": null, "summary": "Frontend hosting and serverless functions with a generous free tier.", "alternative": null },
-    "wordpress-com": { "name": "WordPress.com", "has_review": false, "review_url": null, "summary": "Hosted WordPress for blogs and small business sites; less flexible than self-hosted.", "alternative": null },
-    "webflow": { "name": "Webflow", "has_review": false, "review_url": null, "summary": "Visual website builder with full design control and a built-in CMS.", "alternative": null },
-    "squarespace": { "name": "Squarespace", "has_review": false, "review_url": null, "summary": "Hosted website builder known for beautiful templates and an integrated commerce option.", "alternative": null },
-    "wix": { "name": "Wix", "has_review": false, "review_url": null, "summary": "Drag-and-drop website builder with broad template library and AI tools.", "alternative": null },
-    "google-analytics": { "name": "Google Analytics 4", "has_review": false, "review_url": null, "summary": "Free web and event analytics from Google, the most widely deployed analytics tool.", "alternative": null },
-    "hotjar": { "name": "Hotjar", "has_review": false, "review_url": null, "summary": "Heatmaps, recordings, and on-site surveys to understand user behavior.", "alternative": null }
+    "ahrefs": {
+      "name": "Ahrefs",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Industry-leading SEO toolkit. Best-in-class backlink data; premium pricing.",
+      "alternative": null
+    },
+    "semrush": {
+      "name": "Semrush",
+      "has_review": false,
+      "review_url": null,
+      "summary": "All-in-one SEO and competitive intelligence platform with a wide feature set.",
+      "alternative": null
+    },
+    "google-workspace": {
+      "name": "Google Workspace",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Cloud productivity suite (Gmail, Docs, Drive, Meet) for businesses.",
+      "alternative": null
+    },
+    "microsoft365": {
+      "name": "Microsoft 365 Business",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Cloud productivity suite (Outlook, Word, Excel, Teams) for businesses.",
+      "alternative": null
+    },
+    "stripe": {
+      "name": "Stripe",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Developer-friendly payments platform with strong APIs.",
+      "alternative": null
+    },
+    "paypal": {
+      "name": "PayPal",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Widely-trusted online payments option for buyers and sellers.",
+      "alternative": null
+    },
+    "intercom": {
+      "name": "Intercom",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Customer messaging and support platform; powerful but per-seat pricing adds up.",
+      "alternative": null
+    },
+    "zendesk": {
+      "name": "Zendesk",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Customer support and ticketing platform used by mid-market and enterprise teams.",
+      "alternative": null
+    },
+    "calendly": {
+      "name": "Calendly",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Popular meeting scheduling tool with a strong free tier.",
+      "alternative": null
+    },
+    "typeform": {
+      "name": "Typeform",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Conversational forms and surveys with a polished UX; pricing scales by responses.",
+      "alternative": null
+    },
+    "cloudflare": {
+      "name": "Cloudflare",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Global CDN, DNS, and security platform with a powerful free tier.",
+      "alternative": null
+    },
+    "vercel": {
+      "name": "Vercel",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Frontend hosting and deployment platform, great for Next.js and modern web apps.",
+      "alternative": null
+    },
+    "netlify": {
+      "name": "Netlify",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Frontend hosting and serverless functions with a generous free tier.",
+      "alternative": null
+    },
+    "wordpress-com": {
+      "name": "WordPress.com",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Hosted WordPress for blogs and small business sites; less flexible than self-hosted.",
+      "alternative": null
+    },
+    "webflow": {
+      "name": "Webflow",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Visual website builder with full design control and a built-in CMS.",
+      "alternative": null
+    },
+    "squarespace": {
+      "name": "Squarespace",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Hosted website builder known for beautiful templates and an integrated commerce option.",
+      "alternative": null
+    },
+    "wix": {
+      "name": "Wix",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Drag-and-drop website builder with broad template library and AI tools.",
+      "alternative": null
+    },
+    "google-analytics": {
+      "name": "Google Analytics 4",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Free web and event analytics from Google, the most widely deployed analytics tool.",
+      "alternative": null
+    },
+    "hotjar": {
+      "name": "Hotjar",
+      "has_review": false,
+      "review_url": null,
+      "summary": "Heatmaps, recordings, and on-site surveys to understand user behavior.",
+      "alternative": null
+    }
   }
 }
