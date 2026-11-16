@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "last_generated": "2026-10-26",
+  "last_generated": "2026-11-16",
   "currency_default": "USD",
   "tools": {
     "hubspot": {
@@ -107,20 +107,20 @@
         },
         {
           "name": "Advanced",
-          "price": 34,
+          "price": 32.5,
           "period": "user/month",
           "currency": "USD",
           "notes": ""
         },
         {
           "name": "Professional",
-          "price": 49,
+          "price": 41.0,
           "period": "user/month",
           "currency": "USD",
           "notes": ""
         }
       ],
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-11-16",
       "verified_by": "rodwanmostafa"
     },
     "mailchimp": {
@@ -494,7 +494,7 @@
           "notes": ""
         }
       ],
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-11-16",
       "verified_by": "rodwanmostafa"
     },
     "semrush": {
@@ -524,7 +524,7 @@
           "notes": ""
         }
       ],
-      "last_verified": "2026-10-26",
+      "last_verified": "2026-11-16",
       "verified_by": "rodwanmostafa"
     },
     "google-workspace": {
@@ -554,7 +554,7 @@
           "notes": ""
         }
       ],
-      "last_verified": "2026-10-26",
+      "last_verified": "2026-11-16",
       "verified_by": "rodwanmostafa"
     },
     "microsoft365": {
@@ -600,7 +600,7 @@
           "notes": "2.9% + $0.30 per successful card charge (US)"
         }
       ],
-      "last_verified": "2026-10-26",
+      "last_verified": "2026-11-16",
       "verified_by": "rodwanmostafa"
     },
     "paypal": {
@@ -646,7 +646,7 @@
           "notes": ""
         }
       ],
-      "last_verified": "2026-10-26",
+      "last_verified": "2026-11-16",
       "verified_by": "rodwanmostafa"
     },
     "zendesk": {
@@ -789,7 +789,7 @@
           "notes": ""
         }
       ],
-      "last_verified": "2026-10-26",
+      "last_verified": "2026-11-16",
       "verified_by": "rodwanmostafa"
     },
     "netlify": {
@@ -842,7 +842,7 @@
           "notes": ""
         }
       ],
-      "last_verified": "2026-10-26",
+      "last_verified": "2026-11-16",
       "verified_by": "rodwanmostafa"
     },
     "webflow": {
@@ -978,7 +978,7 @@
           "notes": ""
         }
       ],
-      "last_verified": "2026-10-26",
+      "last_verified": "2026-11-16",
       "verified_by": "rodwanmostafa"
     }
   }
