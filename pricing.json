@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "last_generated": "2026-10-26",
+  "last_generated": "2026-11-23",
   "currency_default": "USD",
   "tools": {
     "hubspot": {
@@ -494,7 +494,7 @@
           "notes": ""
         }
       ],
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-11-23",
       "verified_by": "rodwanmostafa"
     },
     "semrush": {
@@ -524,7 +524,7 @@
           "notes": ""
         }
       ],
-      "last_verified": "2026-10-26",
+      "last_verified": "2026-11-23",
       "verified_by": "rodwanmostafa"
     },
     "google-workspace": {
@@ -554,7 +554,7 @@
           "notes": ""
         }
       ],
-      "last_verified": "2026-10-26",
+      "last_verified": "2026-11-23",
       "verified_by": "rodwanmostafa"
     },
     "microsoft365": {
@@ -600,7 +600,7 @@
           "notes": "2.9% + $0.30 per successful card charge (US)"
         }
       ],
-      "last_verified": "2026-10-26",
+      "last_verified": "2026-11-23",
       "verified_by": "rodwanmostafa"
     },
     "paypal": {
@@ -646,7 +646,7 @@
           "notes": ""
         }
       ],
-      "last_verified": "2026-10-26",
+      "last_verified": "2026-11-23",
       "verified_by": "rodwanmostafa"
     },
     "zendesk": {
@@ -789,7 +789,7 @@
           "notes": ""
         }
       ],
-      "last_verified": "2026-10-26",
+      "last_verified": "2026-11-23",
       "verified_by": "rodwanmostafa"
     },
     "netlify": {
@@ -842,7 +842,7 @@
           "notes": ""
         }
       ],
-      "last_verified": "2026-10-26",
+      "last_verified": "2026-11-23",
       "verified_by": "rodwanmostafa"
     },
     "webflow": {
@@ -882,27 +882,27 @@
       "tiers": [
         {
           "name": "Personal",
-          "price": 16,
+          "price": 19.0,
           "period": "month",
           "currency": "USD",
           "notes": "Annual billing"
         },
         {
           "name": "Business",
-          "price": 23,
+          "price": 19.0,
           "period": "month",
           "currency": "USD",
           "notes": ""
         },
         {
           "name": "Commerce Basic",
-          "price": 28,
+          "price": 29.0,
           "period": "month",
           "currency": "USD",
           "notes": ""
         }
       ],
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-11-23",
       "verified_by": "rodwanmostafa"
     },
     "wix": {
